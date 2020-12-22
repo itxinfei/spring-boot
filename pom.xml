@@ -21,5 +21,6 @@
         <module>spring-boot-mapper</module>
         <module>spring-boot-hello</module>
         <module>spring-boot-ssm</module>
+        <module>spring-boot-web</module>
     </modules>
 </project>
