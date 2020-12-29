@@ -21,6 +21,7 @@
         <module>spring-boot-01-hello</module>
         <module>spring-boot-02-web</module>
         <module>spring-boot-03-jdbc</module>
+        <module>spring-boot-03-mvc</module>
     </modules>
 
     <!-- 这个插件，可以将应用打包成一个可执行的jar包；-->

@@ -1,6 +1,5 @@
 server:
   port: 8081
-
 person:
   lastName: hello
   age: 18
