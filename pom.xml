@@ -20,17 +20,9 @@
     <modules>
         <module>spring-boot-01-hello</module>
         <module>spring-boot-02-web</module>
-        <module>spring-boot-03-jdbc</module>
         <module>spring-boot-03-mvc</module>
+        <module>spring-boot-04-mybatis</module>
+        <module>spring-boot-05-base-config</module>
     </modules>
 
-    <!-- 这个插件，可以将应用打包成一个可执行的jar包；-->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>

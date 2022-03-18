@@ -1,6 +1,6 @@
 package com.pangzhao.pojo;
 
-class Users {
+public class Users {
     private int id;
     private String name;
     private Integer age;
@@ -44,4 +44,3 @@ class Users {
                 '}';
     }
 }
-
