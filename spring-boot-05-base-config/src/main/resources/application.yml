@@ -1,3 +1,0 @@
-# 优先级最高，properties>yml>yaml
-server:
-  port: 8888
