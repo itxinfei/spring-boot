@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.4</version>
+    </parent>
+
+    <groupId>com.pangzhao</groupId>
+    <artifactId>spring-boot</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>springboot_01_quickstart</module>
+        <module>springboot_02_base_configuration</module>
+        <module>springboot_03_yaml</module>
+        <module>springboot_04_junit</module>
+        <module>springboot_05_mybatis</module>
+        <module>springboot_06_mybatis_plus</module>
+        <module>springboot_07_druid</module>
+        <module>springboot_08_ssmp</module>
+        <module>springboot_09_config</module>
+        <module>springboot_10_profiles</module>
+        <module>springboot_11_log</module>
+        <module>springboot_12_hot_deploy</module>
+        <module>springboot_13_configuration</module>
+        <module>springboot_14_test</module>
+        <module>springboot_15_sql</module>
+        <module>springboot_16_redis</module>
+        <module>springboot_17_mongodb</module>
+        <module>springboot_18_es</module>
+        <module>springboot_19_cache</module>
+        <module>springboot_20_jetcache</module>
+        <module>springboot_21_j2cache</module>
+        <module>springboot_22_task</module>
+        <module>springboot_23_mail</module>
+    </modules>
+
+</project>

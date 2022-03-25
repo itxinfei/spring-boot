@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8019
 
 mybatis-plus:
   global-config:

@@ -1,2 +1,3 @@
+# 优先级第二
 server:
-  port: 81
+  port: 8082

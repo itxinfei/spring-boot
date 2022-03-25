@@ -1,4 +1,4 @@
-package com.itheima.controller.bak;
+package com.pangzhao.controller.bak;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

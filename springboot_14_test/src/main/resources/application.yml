@@ -1,6 +1,5 @@
 test:
   prop: testValue
-
 spring:
   datasource:
     druid:
@@ -25,3 +24,5 @@ testcase:
     name: \u9ED1\u9A6C${random.value}
     uuid: ${random.uuid}
     publishTime: ${random.long}
+server:
+  port: 8014

@@ -1,9 +1,8 @@
 # debug: true
-
 logging:
   # 设置分组
   group:
-    ebank: com.itheima.controller,com.itheima.service,com.itheima.dao
+    ebank: com.pangzhao.controller,com.pangzhao.service,com.pangzhao.dao
     iservice: com.alibaba
   level:
     root: info
@@ -22,4 +21,5 @@ logging:
     rollingpolicy:
       max-file-size: 4KB
       file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
-
+server:
+  port: 8011

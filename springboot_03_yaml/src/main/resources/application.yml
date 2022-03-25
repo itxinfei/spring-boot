@@ -1,3 +1,8 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /test123
+
 country: china
 province: beijing
 city: beijing
@@ -29,7 +34,7 @@ likes:
   - music
   - sleep
 
-likes2: [game,music,sleep]
+likes2: [ game,music,sleep ]
 
 users:
   - name: zhangsan
@@ -37,39 +42,34 @@ users:
   - name: lisi
     age: 17
 
-users3: [{name:zhangsan,age:18},{name:lisi,age:17}]
+users3: [ { name:zhangsan,age:18 },{ name:lisi,age:17 } ]
 
 users2:
-  -
-    name: zhangsan
+  - name: zhangsan
     age: 18
-  -
-    name: lisi
+  - name: lisi
     age: 17
 
 
 
 baseDir: c:\win10
 
-#Ê¹ÓÃ${ÊôĞÔÃû}ÒıÓÃÊı¾İ
+#ä½¿ç”¨${å±æ€§å}å¼•ç”¨æ•°æ®
 tempDir: ${baseDir}\temp
-#Ê¹ÓÃÒıºÅ°ü¹üµÄ×Ö·û´®£¬ÆäÖĞµÄ×ªÒå×Ö·û¿ÉÒÔÉúĞ§
+#ä½¿ç”¨å¼•å·åŒ…è£¹çš„å­—ç¬¦ä¸²ï¼Œå…¶ä¸­çš„è½¬ä¹‰å­—ç¬¦å¯ä»¥ç”Ÿæ•ˆ
 tempDir2: "${baseDir}\temp \t1 \t2 \t3"
 
 
-# ´´½¨Àà£¬ÓÃÓÚ·â×°ÏÂÃæµÄÊı¾İ
-# ÓÉspring°ïÎÒÃÇÈ¥¼ÓÔØÊı¾İµ½¶ÔÏóÖĞ£¬Ò»¶¨Òª¸æËßspring¼ÓÔØÕâ×éĞÅÏ¢
-# Ê¹ÓÃÊ±ºò´ÓspringÖĞÖ±½Ó»ñÈ¡ĞÅÏ¢Ê¹ÓÃ
+# åˆ›å»ºç±»ï¼Œç”¨äºå°è£…ä¸‹é¢çš„æ•°æ®
+# ç”±springå¸®æˆ‘ä»¬å»åŠ è½½æ•°æ®åˆ°å¯¹è±¡ä¸­ï¼Œä¸€å®šè¦å‘Šè¯‰springåŠ è½½è¿™ç»„ä¿¡æ¯
+# ä½¿ç”¨æ—¶å€™ä»springä¸­ç›´æ¥è·å–ä¿¡æ¯ä½¿ç”¨
 
 datasource:
   driver: com.mysql.jdbc.Driver
   url: jdbc:mysql://localhost/springboot_db
   username: root
-  password: root666123
-server:
-  port: 80
-  servlet:
-    context-path: /test123
+  password: root
+
 
 
 

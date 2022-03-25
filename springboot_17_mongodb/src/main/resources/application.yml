@@ -2,3 +2,5 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost/itheima
+server:
+  port: 8017

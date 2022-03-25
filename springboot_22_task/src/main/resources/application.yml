@@ -5,3 +5,5 @@ spring:
       shutdown:
         await-termination: false
         await-termination-period: 10s
+server:
+  port: 8022

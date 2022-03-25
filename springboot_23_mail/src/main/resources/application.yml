@@ -3,4 +3,5 @@ spring:
     host: smtp.126.com
     username: test@126.com
     password: test
-
+server:
+  port: 8023
