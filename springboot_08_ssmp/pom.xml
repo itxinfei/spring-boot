@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.itheima</groupId>
+    <groupId>com.pangzhao</groupId>
     <artifactId>springboot_08_ssmp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 

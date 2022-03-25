@@ -7,7 +7,7 @@
         <artifactId>spring-boot</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.itheima</groupId>
+    <groupId>com.pangzhao</groupId>
     <artifactId>springboot_17_mongodb</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -38,13 +38,5 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
